@@ -1,0 +1,31 @@
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+Running 4s test @ http://127.0.0.1:1337
+  8 threads and 400 connections
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency   165.94ms   43.86ms  343.06ms   43.10ms   79.54%
+    Req/Sec   308.55    155.78    505.00      9.00     54.81%
+  9466 requests in 4.08s, 2.93MB read
+Requests/sec:   2321.01
+Transfer/sec:    736.66KB
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+unable to connect to 127.0.0.1:1337 Connection refused
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+Running 4s test @ http://127.0.0.1:1337
+  8 threads and 400 connections
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency   173.01ms   22.54ms  245.64ms    7.32ms   86.70%
+    Req/Sec   286.43    165.54    505.00     10.00     51.49%
+  9135 requests in 4.08s, 2.83MB read
+Requests/sec:   2237.91
+Transfer/sec:    710.28KB
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+unable to connect to 127.0.0.1:1337 Connection refused
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+Running 4s test @ http://127.0.0.1:1337
+  8 threads and 400 connections
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency   173.00ms   42.97ms  253.88ms   10.87ms   69.27%
+    Req/Sec   296.47    161.37    656.00     10.00     54.83%
+  9121 requests in 4.08s, 2.83MB read
+Requests/sec:   2238.25
+Transfer/sec:    710.39KB

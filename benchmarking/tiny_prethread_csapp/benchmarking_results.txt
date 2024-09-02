@@ -1,0 +1,31 @@
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:5000
+Running 4s test @ http://127.0.0.1:5000
+  8 threads and 400 connections
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency   136.57ms   33.40ms  233.07ms    1.89ms   77.02%
+    Req/Sec   365.47    150.13    640.00      9.00     80.26%
+  11604 requests in 4.09s, 3.81MB read
+Requests/sec:   2837.14
+Transfer/sec:      0.93MB
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:5000
+unable to connect to 127.0.0.1:5000 Connection refused
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:5000
+Running 4s test @ http://127.0.0.1:5000
+  8 threads and 400 connections
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency   116.24ms   12.80ms  145.16ms    5.32ms   70.99%
+    Req/Sec   426.24    103.49    634.00     60.00     82.08%
+  13607 requests in 4.08s, 4.46MB read
+Requests/sec:   3337.88
+Transfer/sec:      1.10MB
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:5000
+unable to connect to 127.0.0.1:5000 Connection refused
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:5000
+Running 4s test @ http://127.0.0.1:5000
+  8 threads and 400 connections
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency   122.21ms   22.62ms  193.76ms    4.75ms   80.26%
+    Req/Sec   406.69    125.17    745.00     10.00     80.13%
+  12931 requests in 4.10s, 4.24MB read
+Requests/sec:   3151.40
+Transfer/sec:      1.03MB

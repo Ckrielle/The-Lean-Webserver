@@ -1,0 +1,215 @@
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+Running 4s test @ http://127.0.0.1:1337
+  8 threads and 400 connections
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency     7.79ms   82.58ms    1.76s    83.00us   98.92%
+    Req/Sec   834.56    796.75      2.87k     0.00     68.63%
+  9888 requests in 4.09s, 3.24MB read
+Requests/sec:   2418.09
+Transfer/sec:    812.33KB
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+Running 4s test @ http://127.0.0.1:1337
+  8 threads and 400 connections
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency    12.98ms  107.72ms    1.83s    73.00us   98.11%
+    Req/Sec     1.18k     1.31k     4.71k     1.00     84.75%
+  16123 requests in 4.07s, 5.29MB read
+Requests/sec:   3961.74
+Transfer/sec:      1.30MB
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+unable to connect to 127.0.0.1:1337 Connection refused
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+Running 4s test @ http://127.0.0.1:1337
+  8 threads and 400 connections
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency     8.37ms   89.31ms    1.70s    57.00us   98.80%
+    Req/Sec     1.30k     1.03k     3.72k     3.00     56.07%
+  15737 requests in 4.06s, 5.16MB read
+Requests/sec:   3880.18
+Transfer/sec:      1.27MB

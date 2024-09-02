@@ -1,0 +1,127 @@
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+Running 4s test @ http://127.0.0.1:1337
+  8 threads and 400 connections
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency    12.73ms   99.87ms    1.73s    84.00us   97.83%
+    Req/Sec   811.91    802.66      2.86k     0.00     76.51%
+  13044 requests in 4.05s, 4.04MB read
+Requests/sec:   3220.19
+Transfer/sec:      1.00MB
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+Running 4s test @ http://127.0.0.1:1337
+  8 threads and 400 connections
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency     9.93ms   80.95ms    1.82s    81.00us   98.07%
+    Req/Sec     0.95k     0.98k     3.92k     1.00     82.20%
+  12431 requests in 4.08s, 3.85MB read
+Requests/sec:   3046.66
+Transfer/sec:      0.94MB
+big-pwner@big-pwner-factory:~/Uni/Lean_Webserver/wrk-cmm$ ./wrk -t8 -c400 -d4 http://127.0.0.1:1337
+Running 4s test @ http://127.0.0.1:1337
+  8 threads and 400 connections
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+unable to record connect
+  Thread Stats   Avg     Stdev       Max       Min   +/- Stdev
+    Latency    13.08ms  109.16ms    1.67s    83.00us   98.18%
+    Req/Sec   720.32    597.39      1.97k     2.00     52.70%
+  11736 requests in 4.04s, 3.64MB read
+Requests/sec:   2902.65
+Transfer/sec:      0.90MB
